@@ -67,3 +67,81 @@ if (tourPlan.indexOf('doha') == -1) {
 } else {
   console.log("we can't go anywhere");
 }
+
+
+/*  ~ IF, ELSE IF, ELSE ~  */
+
+{
+  var mode = 'green';
+  let color;
+
+  if (mode === "dark") {
+    color = 'black';
+  }
+  else if (mode === 'blue') {
+    color = 'blue';
+  }
+  else if (mode === 'gray') {
+    color = 'gray';
+  }
+  else {
+    color = 'white';
+  }
+  console.log(color);
+
+}
+
+console.log(mode);
+
+// block statement  {}  (curly barces) er modhye somponno kora hoy.
+/* block scope: Ekta block_er modhye declared data_gulo sei block_er modhye accessible.
+  amra chaileo sei block_gulo'r value_gulo baire theke access korte parbo naa. 
+  Sometimes reference error dekhay. */
+
+/* var data_type dile access kora jabe. var global scope. 
+let and const ei-duto block scope */
+
+
+/* condition? true output : false output ; */
+
+
+/*  ~ TERNARY OPERATOR ~  */
+
+{
+  let age = 16;
+  let result = age >= 18 ? "adult" : "not adult";
+
+  console.log(result);
+}
+
+/*  ~ SWITCH STATEMENT ~  */
+
+const action = 'say hello!';
+switch (action) {
+  case "say hello!":
+    const msg = "hello!";
+    console.log(msg);
+    break;
+  case "say hi!":
+    const yes = "hi!";
+    console.log(yes);
+    break;
+  default:
+    console.log("empty action received");
+}
+
+/*  ~ take input in JavaScript as prompt ~  */
+
+{
+  let number = prompt("enter a number");
+
+  if (ageGroom > 20) {
+    console.log('Groom is eligible for marriage');
+  } else {
+    console.log('Groom is not eligible for marriage');
+  }
+
+}
+
+
+
