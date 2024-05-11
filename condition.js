@@ -98,14 +98,13 @@ console.log(mode);
   amra chaileo sei block_gulo'r value_gulo baire theke access korte parbo naa. 
   Sometimes reference error dekhay. */
 
-/* var data_type dile access kora jabe. var global scope. 
+/* var data_type diley access kora jabe. var global scope. 
 let and const ei-duto block scope */
 
 
-/* condition? true output : false output ; */
-
-
 /*  ~ TERNARY OPERATOR ~  */
+
+/* condition? true output : false output ; */
 
 {
   let age = 16;

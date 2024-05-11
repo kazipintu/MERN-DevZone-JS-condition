@@ -2,7 +2,7 @@
 
 /* FOR LOOP */
 for (let i = 1; i <= 10; i++) {
-  //console.log("MERN");
+  console.log("MERN");
 }
 
 // infinite loop will run without any condition.
