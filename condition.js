@@ -4,8 +4,8 @@
 
 {
   // if data true, then it will return from body, if false it will directly go to else statement //
-  data;
-  if (data) {
+  data = 6;
+  if (data == 5) {
 
   } else {
 
@@ -215,18 +215,19 @@ switch (action) {
     case 2:
       console.log('it is 3');
       break;
-    case 3:
-      console.log("it is also false");
-      break;
-
+    case 4:
+      return console.log("it is 4");
+    default: console.log('nothing');
   }
-
+  // here, the answer will be 4, since case 4 is matching with data 4.
 }
+
+
 
 /*  ~ take input in JavaScript as prompt ~  */
 
 {
-  let number = prompt("enter a number");
+  let ageGroom = prompt("enter a number");
 
   if (ageGroom > 20) {
     console.log('Groom is eligible for marriage');
